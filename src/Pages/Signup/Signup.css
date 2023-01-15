@@ -1,24 +1,21 @@
 
 body {
-    /* background-color:grey; */
+    /* background-image:url() ; */
     font-family: 'Times New Roman', Times, serif;
     }
 
 .signup-box {
+            margin-top: 20px;
+            margin-bottom: 20px;
             width:360px;
-            height: 620px;
-            margin: auto;
-            background-color: white;
-            border-radius: 3px;
+            height: 590px;
+            /* margin: auto; */
+            margin-left: 550px;
+            background-color: #FFFDD0;
+            border-radius: 30px;
             }
 
-.login-box {
-    width: 360px;
-    height: 325px;
-    margin: auto;
-    background-color: white;
-    border-radius: 3px;
-    }
+
 
 h1 {
     text-align: center;
@@ -59,21 +56,11 @@ input[type="button"] {
     font-size: 18px;
 }
 
-p {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
-}
-
-.para-2 {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    margin-top: -10px;
-}
-
-.para-2 a{
-    color: #49c1a2;
+.terms label {
+    /* color:black; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
 }
 
 

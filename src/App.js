@@ -1,29 +1,15 @@
 
+// import { Router } from 'react-router-dom';
 import './App.css';
-import Header from './Common/Header/Header';
-import Login from './Pages/Login';
-import Signup from './Pages/Signup';
-import { BrowserRouter as Router,Route,Switch,Link} from 'react-router-dom'
-import { Pages } from './Pages/Pages';
-import Home from './Components/Mainpage/Home';
+import { Routing } from './Routers';
+// import { Pages } from './Pages/Pages';
+// import {Routers } from './Routers';
+
 
 function App() {
   return (
     <>
-         {/* <Login/> <br/>  */}
-         {/* <Signup/> */}
-         <Router>
-           <Header/>
-            <Switch>
-            {/* <Route path='/' element={<Home/>}/> */}
- 
-            <Route path='/' exact>
-              <Pages/>
-            </Route> 
-
-                      <Pages/>
-            </Switch>
-         </Router>
+        <Routing/>
     </>
   );
 }

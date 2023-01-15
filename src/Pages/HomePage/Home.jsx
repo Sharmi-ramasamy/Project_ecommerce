@@ -1,4 +1,5 @@
 import React from 'react'
+import { Pages } from '../Pages'
 import { Categories } from './Categories'
 import { SlideCard } from './SlideCard'
 import { Slider } from './Slider'
@@ -10,8 +11,8 @@ const Home = () => {
       <div className='container d_flex'>
             <Categories/>
             <Slider/>
+            {/* <Pages/> */}
       </div>
-
     </section>
     </>
   )
