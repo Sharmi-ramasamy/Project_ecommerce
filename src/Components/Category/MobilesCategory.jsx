@@ -1,11 +1,12 @@
 import React from 'react'
 
 import './Category.css'
+import { CategoryHeader } from './CategoryHeader'
 
 export const MobilesCategory = () => {
   return (
     <>
-
+      <CategoryHeader/>
       <div className='container'>
         <div className='card'>
 

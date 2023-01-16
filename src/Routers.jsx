@@ -11,16 +11,21 @@ import { JewelCategory } from './Components/Category/JewelCategory';
 import { MobilesCategory } from './Components/Category/MobilesCategory';
 import { ShoeCategory } from './Components/Category/ShoeCategory';
 import { WatchCategory } from './Components/Category/WatchCategory';
+import { DressCategory } from './Components/Category/DressCategory';
+import { MensCategory } from './Components/Category/MensCategory';
+import { Products } from './Components/Front/Products/Products';
+import { Cart } from './Components/Front/Cart/Cart';
 
 
 
-export const Routing = () => {
+
+export const Routing = ({productItems,cartItems}) => {
   return (
     <>
 
       {/* <Router>   */}
 
-        <Header />
+        {/* <Header /> */}
        
          <Routes>
 
@@ -32,7 +37,12 @@ export const Routing = () => {
           <Route path='mobilecategory' element={<MobilesCategory/>}/>
           <Route path='shoecategory' element={<ShoeCategory/>}/>
           <Route path='watchcategory' element={<WatchCategory/>}/>
-          </Routes> 
+          <Route path='dresscategory' element={<DressCategory/>}/>
+          <Route path='menscategory' element={<MensCategory/>}/>
+          <Route path='products' element={<Products productItems={productItems}/>}/>
+          <Route path='cart' element={<Cart cartItems={cartItems}/>}/>
+
+          </Routes>   
           {/* <Pages/> */}
       {/* </Router> */}
 

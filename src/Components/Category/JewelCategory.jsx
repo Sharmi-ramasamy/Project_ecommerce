@@ -1,11 +1,13 @@
 import React from 'react'
 
 import './Category.css'
+import { CategoryHeader } from './CategoryHeader'
 
 export const JewelCategory = () => {
   return (
     <>
 
+    <CategoryHeader/>
       <div className='container'>
         <div className='card'>
 

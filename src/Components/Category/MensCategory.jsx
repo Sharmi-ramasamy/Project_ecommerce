@@ -1,35 +1,40 @@
 import React from 'react'
+
 import './Category.css'
 import { CategoryHeader } from './CategoryHeader'
 
-export const ShoeCategory = () => {
+export const MensCategory = () => {
   return (
     <>
-
-      <CategoryHeader/>
+        <CategoryHeader/>
       <div className='container'>
-        <div className='card'>
 
-        <div className='product-image'>
-            <a href=''>
-              <img src='./Assets/ProductCategory/Shoes/Casuals/CasualsMain.jpeg' alt='' />
+          <div className='card'>
+          <div className='product-image'>
+            <a href='Products'>
+              <img src='./Assets/ProductCategory/Dresses/Mens/Casual/CasualsMenMain.jpeg' alt='' />
               <div className='product-info'>
-            <h3> Casuals </h3>
+            <h3> Casual </h3>
               </div> </a>
           </div>
           </div>
-         
+
           <div className='card'>
           <div className='product-image'>
             <a href=''>
-              <img src=' /Assets/ProductCategory/Shoes/Formals/FormalsMain.jpeg' alt='' />
+              <img src='./Assets/ProductCategory/Dresses/Mens/Formal/FormalMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Formals </h3>
               </div> </a>
           </div>
           </div>
-          
+
+    
+
+   
+
         
+
       </div>
 
 

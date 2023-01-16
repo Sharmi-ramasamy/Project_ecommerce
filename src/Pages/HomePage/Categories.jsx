@@ -1,6 +1,6 @@
 import React from 'react'
 import './Categories.css'  
-
+// import './Header/Header.css'
 export const Categories = () => {
   const data = [
     {
