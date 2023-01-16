@@ -5,7 +5,7 @@ export const Slider = () => {
   return (
     <div>
         <section className='homeSlide contentWidth'>
-              <div className='container'>
+              <div className='containers'>
                       <SlideCard/>
               </div>
         </section>

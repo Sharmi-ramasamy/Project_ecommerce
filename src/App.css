@@ -20,9 +20,22 @@ body {
   padding: 50px 0;
 }
 
-.container {
-  max-width: 90%;
+/* slidecard  */
+
+.containers {
+  /* max-width: 90%; */
   margin: auto;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 0px; */
+  /* margin-bottom: 50px; */
+  /* margin-left: 290px;   */
+  /* margin-right: 60px; */
+  
 }
 
 .d_flex {
@@ -30,11 +43,11 @@ body {
   justify-content: space-between;
 }
 
-.c_flex {
+/* .c_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .f_flex {
   display: flex;
@@ -49,17 +62,17 @@ li {
   list-style: none;
 }
 
-.uppercase {
+/* .uppercase {
   text-transform: uppercase;
-}
+} */
 
-.capitalize {
+/* .capitalize {
   text-transform: capitalize;
-}
+} */
 
-.RText {
+/* .RText {
   text-align-last: right;
-}
+} */
 
 input,
 button {
@@ -68,9 +81,9 @@ button {
   background-color: none;
 }
 
-.row {
+/* .row {
   width: 50%;
-}
+} */
 
 .icon-circle {
   width: 50px;
@@ -85,7 +98,7 @@ button {
 
 /* Category */
 
-.contentWidth {
+/* .contentWidth {
   width:77%;
 }
 
@@ -94,7 +107,8 @@ button {
   height: 510px;
   padding: 15px 0;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 50px;
+  margin-bottom: 700px;
 }
 
 .category img {
@@ -117,13 +131,13 @@ button {
 .category .box:hover {
   background-color: #ffe1ef;
   cursor: pointer;
-}
+} */
 
 
 
 /* Flash Deals  */
 
-.heading i{
+/* .heading i{
   color: #e94560;
   margin:10px
-}
+} */

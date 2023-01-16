@@ -4,7 +4,7 @@ import React from 'react'
   return (
     <>
       <section className='head'> 
-          <div className='container d_flex'> 
+          <div className='containers d_flex'> 
                 <div className='left row'> 
                    <i className='fa-solid fa-phone'></i>
                    <label> +1234 567 890 </label>
