@@ -4,7 +4,7 @@ import './Products.css'
 
 export const Products = ({productItems}) => {
     // const handleAddProduct=(product)=>{
-    //         const ProductExist=cartItems.find((item)=>item.id ===product.)
+    //         const ProductExist=cartItems.find(item)=>item.id ===product.
     // }
   return (
     <>
@@ -22,7 +22,7 @@ export const Products = ({productItems}) => {
                    <div className='product-price'> $ {productItem.price} </div>
 
                    <div>
-                       <button className='product-add-button' onClick={handleAddProduct(productItem)}> Add to Cart </button>
+                       <button className='product-add-button'> Add to Cart </button>
                    </div>
 
                 </div>
