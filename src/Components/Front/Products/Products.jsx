@@ -2,10 +2,9 @@ import React from 'react'
 import { CategoryHeader } from '../../Category/CategoryHeader'
 import './Products.css'
 
-export const Products = ({productItems}) => {
-    // const handleAddProduct=(product)=>{
-    //         const ProductExist=cartItems.find(item)=>item.id ===product.
-    // }
+export const Products = ({productItems,cartItems,handleAddProduct}) => {
+
+
   return (
     <>
 
@@ -22,7 +21,7 @@ export const Products = ({productItems}) => {
                    <div className='product-price'> $ {productItem.price} </div>
 
                    <div>
-                       <button className='product-add-button'> Add to Cart </button>
+                       <button className='product-add-button' onClick={()=>handleAddProduct(productItem)}> Add to Cart </button>
                    </div>
 
                 </div>

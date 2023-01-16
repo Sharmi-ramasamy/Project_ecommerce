@@ -19,7 +19,7 @@ import { Cart } from './Components/Front/Cart/Cart';
 
 
 
-export const Routing = ({productItems,cartItems}) => {
+export const Routing = ({productItems,cartItems,handleAddProduct,handleRemoveProduct}) => {
   return (
     <>
 
@@ -39,8 +39,8 @@ export const Routing = ({productItems,cartItems}) => {
           <Route path='watchcategory' element={<WatchCategory/>}/>
           <Route path='dresscategory' element={<DressCategory/>}/>
           <Route path='menscategory' element={<MensCategory/>}/>
-          <Route path='products' element={<Products productItems={productItems}/>}/>
-          <Route path='cart' element={<Cart cartItems={cartItems}/>}/>
+          <Route path='products' element={<Products productItems={productItems} handleAddProduct={handleAddProduct}/>}/>
+          <Route path='cart' element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>}/>
 
           </Routes>   
           {/* <Pages/> */}
