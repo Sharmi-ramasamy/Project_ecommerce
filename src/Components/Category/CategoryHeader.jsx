@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './CategoryHeader.css'
 
-export const CategoryHeader = () => {
+export const CategoryHeader = ({cartItems}) => {
   return (
     <header className='headers'>
         <div>
@@ -24,6 +24,9 @@ export const CategoryHeader = () => {
                 <li>
                     <Link to='/cart' className='cart'> 
                        <i className='fas fa-shopping-cart'/>
+                        {/* <span className='cart-length'> 
+                            {cartItems.length ===0 ?  "" : cartItems.length}
+                        </span> */}
                      </Link>
                 </li>
             </ul>

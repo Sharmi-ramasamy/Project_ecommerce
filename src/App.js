@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import { Routing } from './Routers';
 
@@ -39,9 +37,13 @@ function App() {
       
     }
 
+    const handleCartClearance=()=> {
+        setCartItems([]);
+    }
+
   return (
     <>
-        <Routing productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>
+        <Routing productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance}/>
         
         
     </>
