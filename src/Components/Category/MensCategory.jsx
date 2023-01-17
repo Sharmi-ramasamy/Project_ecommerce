@@ -21,7 +21,7 @@ export const MensCategory = () => {
 
           <div className='card'>
           <div className='product-image'>
-            <a href=''>
+            <a href='Products'>
               <img src='./Assets/ProductCategory/Dresses/Mens/Formal/FormalMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Formals </h3>

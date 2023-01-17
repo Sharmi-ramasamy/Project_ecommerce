@@ -42,26 +42,26 @@ const data= {
             image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
         },
 
-        {
-            id:'7',
-            name:'J Shirts',
-            price:999,
-            image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
-        },
+        // {
+        //     id:'7',
+        //     name:'J Shirts',
+        //     price:999,
+        //     image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
+        // },
 
-        {
-            id:'8',
-            name:'F Shirts',
-            price:999,
-            image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
-        },
+        // {
+        //     id:'8',
+        //     name:'F Shirts',
+        //     price:999,
+        //     image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
+        // },
 
-        {
-            id:'9',
-            name:'U Shirts',
-            price:599,
-            image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
-        },
+        // {
+        //     id:'9',
+        //     name:'U Shirts',
+        //     price:599,
+        //     image:'./Assets/ProductCategory/Dresses/Mens/MensMain.jpg'
+        // },
     ]
 
 }

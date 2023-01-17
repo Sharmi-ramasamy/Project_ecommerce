@@ -5,8 +5,8 @@ import { Categories } from './Categories'
 import { SlideCard } from './SlideCard'
 import { Slider } from './Slider'
 // import './Header/Header.css'
-import './Home.css'
-// import './Header.css'
+import './Home.css'  
+ // import './Header.css'
 
 const Home = () => {
   return (

@@ -1,9 +1,11 @@
 import React from 'react'
+import { CategoryHeader } from '../../Components/Category/CategoryHeader'
 import './Signup.css'
 
 export default function Signup() {
   return (
     <>
+    <CategoryHeader/>
       <div className="signup-box">
         <h1> Sign Up </h1> <br/>
         <h4> Take a minute to signup </h4>

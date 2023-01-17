@@ -14,6 +14,7 @@ const Search = () => {
     <>
       <section className='search'>
         <div className='container c_flex'>
+
           {/* <div className='logo width '> */}
             {/* <img src={logo} alt='' /> */}
           {/* </div> */}
@@ -25,13 +26,17 @@ const Search = () => {
           {/* </div> */}
 
           <div className='icon f_flex width'>
-            <i className='fa fa-user icon-circle'></i>
+            {/* <i className='fa fa-user icon-circle'></i> */}
             <div className='cart'>
+
               <Link to='/cart'>
-                <i className='fa fa-shopping-bag icon-circle'></i>
-                <span>0</span>
+                {/* <i className='fa fa-shopping-bag icon-circle'></i> */}
+                {/* <span>0</span> */}
+
                 {/* <span>{CartItem.length === 0 ? "" : CartItem.length}</span> */}
+
               </Link>
+
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
             <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>  
               {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
-                <Link to='/'> home </Link>
+                <Link to='/'> Home </Link>
               </li>
               <li>
                 <Link to='/login'> Login </Link>
@@ -33,11 +33,11 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
+            {/* <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
             {MobileMenu ? <i className='fas fa-times close home-btn'></i>  
              : <i className="fa-solid fa-bars open"></i>
             }
-            </button>
+            </button> */}
           </div>
         </div>
       </header>

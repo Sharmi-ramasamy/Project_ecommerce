@@ -1,9 +1,11 @@
 import React from 'react'
+import { CategoryHeader } from '../../Components/Category/CategoryHeader';
 import './Login.css';
 
 export default function Login() {
   return (
     <>
+    <CategoryHeader/>
     <div className="login-box">
             <h1> Login </h1>
             <form>
