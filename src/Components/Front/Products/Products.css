@@ -35,8 +35,13 @@
 .product-price {
     margin: 10px 0px;
     padding-bottom: 20px;
+    font-style: italic;
     font-size: 18px;
     line-height: 30px;
+}
+
+.product-rating {
+    color:goldenrod;
 }
 
 .product-add-button {
@@ -62,3 +67,4 @@
 .product-add-button:active {
     transform: translateY(2px);
 }
+

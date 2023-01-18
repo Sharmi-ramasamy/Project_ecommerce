@@ -22,6 +22,11 @@ export const CategoryHeader = ({cartItems}) => {
             </ul>
             <ul>
                 <li>
+                    <Link to='/Category'> Category </Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
                     <Link to='/cart' className='cart'> 
                        <i className='fas fa-shopping-cart'/>
                         {/* <span className='cart-length'> 

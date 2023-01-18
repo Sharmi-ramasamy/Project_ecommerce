@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": 0,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
       "id": 1,
       "title": "json-server",
       "author": "typicode"
@@ -8,12 +13,27 @@
   ],
   "comments": [
     {
-      "id": 1,
+      "id": 2,
       "body": "some comment",
       "postId": 1
     }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "products": [
+    {
+      "id": 3,
+      "productname": "Casuals",
+      "image": "./Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 4,
+      "productname": "Formals",
+      "image": "./Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 5
+    }
+  ]
 }

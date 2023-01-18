@@ -12,15 +12,13 @@ import { MobilesCategory } from './Components/Category/MobilesCategory';
 import { ShoeCategory } from './Components/Category/ShoeCategory';
 import { WatchCategory } from './Components/Category/WatchCategory';
 import { DressCategory } from './Components/Category/DressCategory';
+import { ProductPage } from './Components/Front/Products/ProductPage';
 import { MensCategory } from './Components/Category/MensCategory';
-import { Products } from './Components/Front/Products/Products';
 import { Cart } from './Components/Front/Cart/Cart';
-// import { MensCasualProducts } from './Components/Front/Products/MensCasualProducts';
 
 
 
-
-export const Routing = ({productItems,cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) => {
+export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) => {
   return (
     <>
 
@@ -40,8 +38,7 @@ export const Routing = ({productItems,cartItems,handleAddProduct,handleRemovePro
           <Route path='watchcategory' element={<WatchCategory/>}/>
           <Route path='dresscategory' element={<DressCategory/>}/>
           <Route path='menscategory' element={<MensCategory/>}/>
-          {/* <Route path='menscasualproducts' element={<MensCasualProducts/>}/> */}
-          <Route path='products' element={<Products productItems={productItems} handleAddProduct={handleAddProduct}/>}/>
+          <Route path='products/:category' element={<ProductPage handleAddProduct={handleAddProduct}/>}/>
           <Route path='cart' element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance} />}/>
 
           </Routes>   
