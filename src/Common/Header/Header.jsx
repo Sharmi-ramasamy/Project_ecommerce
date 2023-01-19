@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       {/* <Head />  */}
-      <Search />
+      {/* <Search /> */}
       <Navbar />
     </>
   )

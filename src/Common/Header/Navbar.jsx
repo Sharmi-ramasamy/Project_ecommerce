@@ -1,10 +1,21 @@
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import './Navbar.css'
 
 const Navbar = () => {
   // Toogle Menu
   const [MobileMenu, setMobileMenu] = useState(false)
+// const navigate=useNavigate()
+//   const handleChange =()=> {
+//     console.log('done');
+//       if (sessionStorage.getItem("email")){
+// navigate('/category')
+//       }
+//       else {
+//         navigate('/')
+//       }
+//   }
+  
   return (
     <>
       <header className='header'>
@@ -31,6 +42,9 @@ const Navbar = () => {
               <li>
                 <Link to='/category'> Category </Link>
               </li>
+              {/* <li onClick={handleChange}>
+                 Category 
+              </li> */}
             </ul>
 
             {/* <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>

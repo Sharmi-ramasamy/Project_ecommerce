@@ -7,13 +7,13 @@ import Home from './Pages/HomePage/Home';
 import Login from './Pages/Login/Login';
 import Signup from './Pages/Signup/Signup';
 import { Category } from './Components/Category/Category';
-import { JewelCategory } from './Components/Category/JewelCategory';
-import { MobilesCategory } from './Components/Category/MobilesCategory';
-import { ShoeCategory } from './Components/Category/ShoeCategory';
+import {JewelCategory} from './Components/Category/Jewels/JewelCategory'
+import { MobilesCategory } from './Components/Category/Mobiles/MobilesCategory';
+import { ShoeCategory } from './Components/Category/Shoes/ShoeCategory';
 import { WatchCategory } from './Components/Category/WatchCategory';
-import { DressCategory } from './Components/Category/DressCategory';
+import { DressCategory } from './Components/Category/Dress/DressCategory';
 import { ProductPage } from './Components/Front/Products/ProductPage';
-import { MensCategory } from './Components/Category/MensCategory';
+import { MensCategory } from './Components/Category/Dress/Mens/MensCategory';
 import { Cart } from './Components/Front/Cart/Cart';
 
 
@@ -29,9 +29,9 @@ export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCa
          <Routes>
 
           <Route path='/' element={<Home/>}/>
-          <Route path='login' element={<Login/>}/>
+          <Route path='/login' element={<Login/>}/>
           <Route path='signup' element={<Signup/>}/>
-          <Route path='category' element={<Category/>}/>
+          <Route path='/category' element={<Category/>}/>
           <Route path='jewelcategory' element={<JewelCategory/>}/>
           <Route path='mobilecategory' element={<MobilesCategory/>}/>
           <Route path='shoecategory' element={<ShoeCategory/>}/>

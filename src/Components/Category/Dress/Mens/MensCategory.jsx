@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import  Axios from 'axios'
-import './Category.css'
-import { CategoryHeader } from './CategoryHeader'
+import '../../Category.css'
+import { CategoryHeader } from '../../CategoryHeader'
+import { Link } from 'react-router-dom'
 
 
 export const MensCategory = () => {
@@ -24,21 +25,21 @@ export const MensCategory = () => {
 
           <div className='card'>
           <div className='product-image'>
-            <a href='Products/formals'>
+            <Link to='/Products/Formals'>
               <img src='./Assets/ProductCategory/Dresses/Mens/Casual/CasualsMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Casual </h3>
-              </div> </a>
+              </div> </Link>
           </div>
           </div>
 
           <div className='card'>
           <div className='product-image'>
-            <a href='Products/casuals'>
+            <Link to='/Products/Casuals'>
               <img src='./Assets/ProductCategory/Dresses/Mens/Formal/FormalMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Formals </h3>
-              </div> </a>
+              </div> </Link>
           </div>
           </div>
           </div> 

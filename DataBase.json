@@ -1,39 +1,41 @@
 {
-  "posts": [
+  "user": [
     {
       "id": 0,
-      "title": "json-server",
-      "author": "typicode"
+      "userName": "sharmi",
+      "email": "sharmi@gmail.com",
+      "password": "Sharmi@123"
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "products": [
-    {
-      "id": 3,
-      "productname": "Casuals",
-      "image": "./Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+      "name": "Dhanush",
+      "email": "dhanush2000@gmail.com",
+      "password": "Dhanush@2000",
+      "id": 1
     },
     {
-      "id": 4,
-      "productname": "Formals",
-      "image": "./Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+      "name": "Abc",
+      "email": "Abc@gmail.com",
+      "password": "ABC123",
+      "id": 3
+    },
+   
+    {
+      "name": "Ramasamy",
+      "email": "Ramasamy@gmail.com",
+      "password": "Ramasamy@1212",
+      "id": 8
     },
     {
+      "name": "Kavitha",
+      "email": "Kavitha@gmail.com",
+      "password": "Kavitha@5803",
       "id": 5
+    },
+    {
+      "name": "Renu",
+      "email": "Renu@gmail.com",
+      "password": "Renu@1234",
+      "id": 9
     }
   ]
 }

@@ -1,27 +1,48 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { CategoryHeader } from '../../Components/Category/CategoryHeader'
 import './Signup.css'
 
+
 export default function Signup() {
+
+  // const [id,setId]=useState("");
+  const [name,setName]=useState("");
+  const [email,setEmail]=useState("");
+  const [password,setPassword]=useState("");
+  const navigate = useNavigate()
+  const handleSubmit=(event) => {
+    event.preventDefault();
+    let user={name,email,password}
+    axios.post("http://localhost:4040/user",user).then(navigate('/login'))
+    console.log(user);
+  }
   return (
     <>
     <CategoryHeader/>
       <div className="signup-box">
         <h1> Sign Up </h1> <br/>
         <h4> Take a minute to signup </h4>
-        <form>
-          <label> First Name</label>
-          <input type="text" placeholder="Enter first name" required />
-          <label> Last Name</label>
-          <input type="text" placeholder="Enter last name" required/>
+        <form onSubmit={handleSubmit}>
+          <label> Name</label>
+          <input value={name} onChange={event=>setName(event.target.value)} type="text" placeholder="Enter first name" required/>
+
           <label> Email</label>
-          <input type="email" placeholder="Enter email address" required />
+          <input  value={email} onChange={event=>setEmail(event.target.value)} type="email" placeholder="Enter email address"  required/>
+
           <label> Password</label>
-          <input type="password" placeholder="Enter password" required/>
+          <input value={password} onChange={event=>setPassword(event.target.value)} type="password" placeholder="Enter password" required/>
+
           <label> Confirm Password</label>
-          <input type="password" placeholder="Re-enter the password" required/>
-          <input type="button" value="Register" />
+          <input type="password" placeholder="Re-enter the password"/>
+
+          {/* <input type="submit" value="Register" /> */}
+
+          <button type='submit'> Signup </button>
+
         </form>
+
         <br />
         <br />
         <div className="terms">
@@ -32,7 +53,7 @@ export default function Signup() {
         </div>
 
       </div>
-      {/* <p className="para-2"> Already have an account? <a href="Login.js"> Login Here </a></p> */}
+
     </>
 
   )
