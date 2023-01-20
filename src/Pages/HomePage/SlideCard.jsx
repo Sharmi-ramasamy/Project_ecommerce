@@ -22,7 +22,8 @@ export const SlideCard = () => {
   return (
     <>
       {/* <Slider {...settings}> */}
-        {Sdata.map((value, index) => {
+        {Sdata.map((value,index) => {
+          
           return (  
             <>
               <div className='box d_flex top' key={index}>

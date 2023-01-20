@@ -1,8 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './CategoryHeader.css'
+import { useNavigate } from 'react-router-dom'
 
 export const CategoryHeader = ({cartItems}) => {
+    const navigate=useNavigate()
+  const handleChange =()=> {
+    console.log('done');
+      if (sessionStorage.getItem("email")){
+navigate('/category')
+      }
+      else {
+        navigate('/login')
+      }
+  }
+  
   return (
     <header className='headers'>
         <div>
@@ -19,13 +31,18 @@ export const CategoryHeader = ({cartItems}) => {
                 <li>
                     <Link to='/'> Home </Link>
                 </li>
-            </ul>
-            <ul>
-                <li>
+            
+            
+                <li id='category' onClick={handleChange}>
                     <Link to='/Category'> Category </Link>
                 </li>
-            </ul>
-            <ul>
+
+              
+                 {/* <a id='category' onClick={handleChange}>Category 
+                   </a>  */}
+
+            
+            
                 <li>
                     <Link to='/cart' className='cart'> 
                        <i className='fas fa-shopping-cart'/>

@@ -6,7 +6,7 @@ export const Cart = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartC
     const totalPrice=cartItems.reduce((price,item)=> price + item.quantity * item.price, 0)
   return (
     <>
-    <CategoryHeader cartItems={cartItems}/>
+    {/* <CategoryHeader cartItems={cartItems}/> */}
         <div className='cart-items'>
             <h2 className='cart-items-header'> Cart Items </h2>
             <div className='clear-cart'>

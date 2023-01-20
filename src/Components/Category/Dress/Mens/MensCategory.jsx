@@ -19,13 +19,13 @@ export const MensCategory = () => {
 
   return (
     <>
-        <CategoryHeader/>
+        {/* <CategoryHeader/> */}
        
        <div className='container'>
 
           <div className='card'>
           <div className='product-image'>
-            <Link to='/Products/Formals'>
+            <Link to='/products/Formals'>
               <img src='./Assets/ProductCategory/Dresses/Mens/Casual/CasualsMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Casual </h3>
@@ -35,7 +35,7 @@ export const MensCategory = () => {
 
           <div className='card'>
           <div className='product-image'>
-            <Link to='/Products/Casuals'>
+            <Link to='/products/Casuals'>
               <img src='./Assets/ProductCategory/Dresses/Mens/Formal/FormalMenMain.jpeg' alt='' />
               <div className='product-info'>
             <h3> Formals </h3>

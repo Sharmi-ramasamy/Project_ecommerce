@@ -8,7 +8,7 @@ export const ShoeCategory = () => {
   return (
     <>
 
-      <CategoryHeader/>
+      {/* <CategoryHeader/> */}
       <div className='container'>
         <div className='card'>
 

@@ -28,6 +28,22 @@
     font-size: 100px;
 }
 
+ #category {
+    list-style: none;
+    /* display: inline-block; */
+    /* padding-top: 200px; */
+    /* padding-bottom: 30px; */
+    /* margin-top:2px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: aliceblue; */
+    /* cursor: pointer; */
+}
+
+/* #category:hover {
+    color:crimson;
+} */
+
 .headers-links ul li a {
     text-decoration: none;
     text-transform: uppercase;

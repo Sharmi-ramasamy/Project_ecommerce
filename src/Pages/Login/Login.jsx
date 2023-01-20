@@ -49,6 +49,7 @@ export default function Login() {
        }
        else{
         setError("Invalid credential")
+        navigate('/signup')
        }
     
     // console.log(res.data[0])
@@ -90,7 +91,7 @@ export default function Login() {
 
   return (
     <>
-    <CategoryHeader/>
+    {/* <CategoryHeader/> */}
     {/* <LoginHeader/> */}
     <div className="login-box">
             <h1> Login </h1>

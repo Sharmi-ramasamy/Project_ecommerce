@@ -11,7 +11,7 @@ export const Category = () => {
   return (
     <>
 
-      <CategoryHeader/>
+      {/* <CategoryHeader/> */}
       <div className='container'>
         <div className='card'>
 

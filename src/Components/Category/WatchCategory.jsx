@@ -6,7 +6,7 @@ import { CategoryHeader } from './CategoryHeader'
 export const WatchCategory = () => {
   return (
     <>
-        <CategoryHeader/>
+        {/* <CategoryHeader/> */}
       <div className='container'>
         <div className='card'>
 

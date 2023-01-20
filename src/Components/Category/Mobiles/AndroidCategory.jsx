@@ -1,9 +1,10 @@
+
 import React from 'react'
-import { Link, Navigate } from 'react-router-dom'
-import '../Category.css'
+import { Link } from 'react-router-dom'
+import './Android.css'
 import { CategoryHeader } from '../CategoryHeader'
 
-export const MobilesCategory = () => {
+export const AndroidCategory = () => {
   return (
     <>
       {/* <CategoryHeader/> */}
@@ -21,11 +22,10 @@ export const MobilesCategory = () => {
          
           <div className='card'>
           <div className='product-image'>
-          <Link to='/AndroidCategory'>
-         
-              <img src=' /Assets/ProductCategory/Mobiles/Android/AndroidMain.jpg' alt='' />
+          <Link to='/products/AndroidRedmi'>
+              <img src=' /Assets/ProductCategory/Mobiles/Android/Redmi/RedmiMain.jpg' alt='' />
               <div className='product-info'>
-            <h3> Android </h3>
+            <h3> Redmi </h3>
               </div> </Link>
           </div>
           </div>
@@ -34,10 +34,10 @@ export const MobilesCategory = () => {
           
           <div className='card'>
           <div className='product-image'>
-          <Link to='/products/AndroidCategory'>
-              <img src='./Assets/ProductCategory/Mobiles/iphone/IphoneMain.jpeg' alt='' />
+          <Link to='/products/AndroidOppo'>
+              <img src='./Assets/ProductCategory/Mobiles/Android/Oppo/OppoMain.png' alt='' />
               <div className='product-info'>
-            <h3> Iphone </h3>
+            <h3> Oppo </h3>
               </div> </Link>
           </div>
           </div>

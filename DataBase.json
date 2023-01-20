@@ -7,35 +7,356 @@
       "password": "Sharmi@123"
     },
     {
-      "name": "Dhanush",
-      "email": "dhanush2000@gmail.com",
-      "password": "Dhanush@2000",
+      "name": "SharmiRamasamy",
+      "email": "sharmiRam@gmail.com",
+      "password": "Sharmi#1221",
       "id": 1
     },
     {
       "name": "Abc",
       "email": "Abc@gmail.com",
       "password": "ABC123",
-      "id": 3
+      "id": 2
     },
-   
     {
       "name": "Ramasamy",
       "email": "Ramasamy@gmail.com",
       "password": "Ramasamy@1212",
-      "id": 8
+      "id": 3
     },
     {
       "name": "Kavitha",
       "email": "Kavitha@gmail.com",
       "password": "Kavitha@5803",
-      "id": 5
+      "id": 4
     },
     {
       "name": "Renu",
       "email": "Renu@gmail.com",
       "password": "Renu@1234",
-      "id": 9
+      "id": 5
+    },
+    {
+      "name": "Shanku",
+      "email": "Shankar@gmail.com",
+      "password": "Shankar@12345",
+      "id":6
+    }
+  ],
+
+
+  "ProductItems": [
+    {
+      "id": 1,
+      "category": "jewels",
+      "name": "Shirts",
+      "price": 999,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Formals",
+      "name": "t Shirts",
+      "price": 1999,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Formals",
+      "name": "s Shirts",
+      "price": 899,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Formals",
+      "name": "V Shirts",
+      "price": 799,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Formals",
+      "name": "G Shirts",
+      "price": 699,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Formals",
+      "name": "S Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Casuals",
+      "name": "J Shirts",
+      "price": 999,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+    },
+    {
+      "id": 8,
+      "category": "Casuals",
+      "name": "F Shirts",
+      "price": 999,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+    },
+    {
+      "id": 9,
+      "category": "Casuals",
+      "name": "U Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+    },
+    {
+      "id": 10,
+      "category": "Casuals",
+      "name": "U Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+    },
+    {
+      "id": 11,
+      "category": "Casuals",
+      "name": "U Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle2.jpg"
+    },
+    {
+      "id": 12,
+      "category": "Casuals",
+      "name": "U Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle3.jpeg"
+    },
+
+  
+    {
+      "id": 13,
+      "category": "Bangles",
+      "name": "Kagan Bangle",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle1.jpg"
+    },
+    {
+      "id": 14,
+      "category": "Bangles",
+      "name": "Slim Golden Bangle",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle2.jpg"
+    },
+    {
+      "id": 15,
+      "category": "Bangles",
+      "name": "Kadiyam",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle5.jpeg"
+    },
+    {
+      "id": 16,
+      "category": "Bangles",
+      "name": "Kagan Bangles",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle4.jpeg"
+    },
+    {
+      "id": 17,
+      "category": "Bangles",
+      "name": "Golden-Red Bangles",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle6.jpeg"
+    },
+    {
+      "id": 18,
+      "category": "Bangles",
+      "name": "Emerald Uncut Bangles",
+      "price": 599,
+      "desc" :"Cheap and best",
+      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle3.jpeg"
+    },
+
+
+    {
+      "id": 19,
+      "category": "Necklace",
+      "name": "Golden with pearls",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace1.jpg"
+    },
+    {
+      "id": 20,
+      "category": "Necklace",
+      "name": "V-shaped Necklace",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace2.jpeg"
+    },
+    {
+      "id": 21,
+      "category": "Necklace",
+      "name": "Lakshmi Necklace",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace3.jpg"
+    },
+    {
+      "id": 22,
+      "category": "Necklace",
+      "name": "Diamond Necklace",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace4.jpeg"
+    },
+    {
+      "id": 24,
+      "category": "Necklace",
+      "name": "Green Diamond Necklace",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace6.jpeg"
+    },
+    {
+      "id": 23,
+      "category": "Necklace",
+      "name": "Golden Diamond",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace5.jpeg"
+    },
+
+
+    {
+      "id": 25,
+      "category": "Ring",
+      "name": "Ring1",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring1.jpg"
+    },
+    {
+      "id": "26",
+      "category": "Ring",
+      "name": "Ring2",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring2.jpg"
+    },
+    {
+      "id": 27,
+      "category": "Ring",
+      "name": "Ring3",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring3.jpeg"
+    },
+    {
+      "id": 28,
+      "category": "Ring",
+      "name": "Ring4",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring4.jpg"
+    },
+    {
+      "id":29,
+      "category": "Ring",
+      "name": "Ring5",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring5.jpeg"
+    },
+    {
+      "id":30,
+      "category": "Ring",
+      "name": "Ring6",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Ring/Ring6.jpg"
+    },
+
+
+    {
+      "id": 32,
+      "category": "Earings",
+      "name": "Earings1",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E1.jpg"
+    },
+    {
+      "id": 33,
+      "category": "Earings",
+      "name": "Earings2",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E2.jpg"
+    },
+    {
+      "id": 34,
+      "category": "Earings",
+      "name": "Earings3",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E3.jpg"
+    },
+    {
+      "id": 35,
+      "category": "Earings",
+      "name": "Earings4",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E6.jpg"
+    },
+    {
+      "id": 36,
+      "category": "Earings",
+      "name": "Earings5",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E9.jpeg"
+    },
+    {
+      "id":37,
+      "category": "Earings",
+      "name": "Earings6",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Earings/E14.jpg"
+    },
+
+  
+    {
+      "id": 38,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 12 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote12Pro+.jpg"
+    },
+    {
+      "id": 39,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 11 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote11Pro+.jpg"
+    },
+    {
+      "id":40,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 10 Pro" ,
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote10Pro.jpg"
+    },
+    {
+      "id": 41,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 11 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote10.png"
+    },
+    {
+      "id": 42,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 11 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote12Pro+.jpeg"
+    },
+    {
+      "id": 43,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 11 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+    },
+    {
+      "id": 42,
+      "category": "AndroidOppo",
+      "name": "U Shirts",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
     }
   ]
 }
