@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../../Common/Header/Header'
+// import Header from '../../Common/Header/Header'
 import Login from '../../Pages/Login/Login'
 import './Category.css'
-import { CategoryHeader } from './CategoryHeader'
+
 import { Link } from 'react-router-dom'
 
 export const Category = () => {
@@ -11,7 +11,7 @@ export const Category = () => {
   return (
     <>
 
-      {/* <CategoryHeader/> */}
+      
       <div className='container'>
         <div className='card'>
 

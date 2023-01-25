@@ -1,10 +1,10 @@
 {
   "user": [
     {
-      "id": 0,
-      "userName": "sharmi",
+      "name": "sharmi",
       "email": "sharmi@gmail.com",
-      "password": "Sharmi@123"
+      "password": "Sharmi@123",
+      "id": 0
     },
     {
       "name": "SharmiRamasamy",
@@ -40,323 +40,552 @@
       "name": "Shanku",
       "email": "Shankar@gmail.com",
       "password": "Shankar@12345",
-      "id":6
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "asd",
+      "password": "sdefrgtyhujiAS@123",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "sdfgh1234",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 11
+    },
+    {
+      "name": "S fdghj",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 12
+    },
+    {
+      "name": "S fdghj",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 13
+    },
+    {
+      "name": "S fdghj",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 14
+    },
+    {
+      "name": "Sfdghj",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 15
+    },
+    {
+      "name": "Sfdghj",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 16
+    },
+    {
+      "name": "SGHJKK",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 17
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 18
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 19
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 20
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 21
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 22
+    },
+    {
+      "name": "SGHJKKsdf",
+      "email": "swderfgt@gmail.com",
+      "password": "asdfghjkl123456",
+      "id": 23
+    },
+    {
+      "name": "Shar123",
+      "email": "shar",
+      "password": "",
+      "id": 24
+    },
+    {
+      "name": "Sharmi",
+      "email": "shar",
+      "password": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 26
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 27
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 28
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 29
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 30
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 31
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 32
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 33
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 34
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 35
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 36
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 37
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 38
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 39
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 40
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 41
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 42
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 43
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 44
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 45
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 46
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 47
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 48
     }
   ],
-
-
   "ProductItems": [
     {
       "id": 1,
-      "category": "jewels",
-      "name": "Shirts",
-      "price": 999,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 2,
-      "category": "Formals",
-      "name": "t Shirts",
-      "price": 1999,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 3,
-      "category": "Formals",
-      "name": "s Shirts",
-      "price": 899,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 4,
-      "category": "Formals",
-      "name": "V Shirts",
-      "price": 799,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 5,
-      "category": "Formals",
-      "name": "G Shirts",
-      "price": 699,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 6,
-      "category": "Formals",
-      "name": "S Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Dresses/Mens/MensMain.jpg"
-    },
-    {
-      "id": 7,
-      "category": "Casuals",
-      "name": "J Shirts",
-      "price": 999,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
-    },
-    {
-      "id": 8,
-      "category": "Casuals",
-      "name": "F Shirts",
-      "price": 999,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
-    },
-    {
-      "id": 9,
-      "category": "Casuals",
-      "name": "U Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
-    },
-    {
-      "id": 10,
-      "category": "Casuals",
-      "name": "U Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
-    },
-    {
-      "id": 11,
-      "category": "Casuals",
-      "name": "U Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle2.jpg"
-    },
-    {
-      "id": 12,
-      "category": "Casuals",
-      "name": "U Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle3.jpeg"
-    },
-
-  
-    {
-      "id": 13,
       "category": "Bangles",
       "name": "Kagan Bangle",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle1.jpg"
     },
     {
-      "id": 14,
+      "id": 2,
       "category": "Bangles",
       "name": "Slim Golden Bangle",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle2.jpg"
     },
     {
-      "id": 15,
+      "id": 3,
       "category": "Bangles",
       "name": "Kadiyam",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle5.jpeg"
     },
     {
-      "id": 16,
+      "id": 4,
       "category": "Bangles",
       "name": "Kagan Bangles",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle4.jpeg"
     },
     {
-      "id": 17,
+      "id": 5,
       "category": "Bangles",
       "name": "Golden-Red Bangles",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle6.jpeg"
     },
     {
-      "id": 18,
+      "id": 6,
       "category": "Bangles",
       "name": "Emerald Uncut Bangles",
       "price": 599,
-      "desc" :"Cheap and best",
+      "desc": "Cheap and best",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle3.jpeg"
     },
-
-
     {
-      "id": 19,
+      "id": 7,
       "category": "Necklace",
       "name": "Golden with pearls",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace1.jpg"
     },
     {
-      "id": 20,
+      "id": 8,
       "category": "Necklace",
       "name": "V-shaped Necklace",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace2.jpeg"
     },
     {
-      "id": 21,
+      "id": 9,
       "category": "Necklace",
       "name": "Lakshmi Necklace",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace3.jpg"
     },
     {
-      "id": 22,
+      "id": 10,
       "category": "Necklace",
       "name": "Diamond Necklace",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace4.jpeg"
     },
     {
-      "id": 24,
+      "id": 11,
       "category": "Necklace",
       "name": "Green Diamond Necklace",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace6.jpeg"
     },
     {
-      "id": 23,
+      "id": 12,
       "category": "Necklace",
       "name": "Golden Diamond",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace5.jpeg"
     },
-
-
     {
-      "id": 25,
+      "id": 13,
       "category": "Ring",
       "name": "Ring1",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring1.jpg"
     },
     {
-      "id": "26",
+      "id": 14,
       "category": "Ring",
       "name": "Ring2",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring2.jpg"
     },
     {
-      "id": 27,
+      "id": 15,
       "category": "Ring",
       "name": "Ring3",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring3.jpeg"
     },
     {
-      "id": 28,
+      "id": 16,
       "category": "Ring",
       "name": "Ring4",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring4.jpg"
     },
     {
-      "id":29,
+      "id": 17,
       "category": "Ring",
       "name": "Ring5",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring5.jpeg"
     },
     {
-      "id":30,
+      "id": 18,
       "category": "Ring",
       "name": "Ring6",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring6.jpg"
     },
-
-
     {
-      "id": 32,
+      "id": 19,
       "category": "Earings",
       "name": "Earings1",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E1.jpg"
     },
     {
-      "id": 33,
+      "id": 20,
       "category": "Earings",
       "name": "Earings2",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E2.jpg"
     },
     {
-      "id": 34,
+      "id": 21,
       "category": "Earings",
       "name": "Earings3",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E3.jpg"
     },
     {
-      "id": 35,
+      "id": 22,
       "category": "Earings",
       "name": "Earings4",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E6.jpg"
     },
     {
-      "id": 36,
+      "id": 23,
       "category": "Earings",
       "name": "Earings5",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E9.jpeg"
     },
     {
-      "id":37,
+      "id": 24,
       "category": "Earings",
       "name": "Earings6",
       "price": 599,
       "image": "/Assets/ProductCategory/Jewels/Earings/E14.jpg"
     },
-
-  
+    {
+      "id": 25,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 12 5G",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote12.jpg"
+    },
+    {
+      "id": 26,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 11 Pro+",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote11Pro+.jpg"
+    },
+    {
+      "id": 27,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 10 Pro",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote10Pro.jpg"
+    },
+    {
+      "id": 28,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 10",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote10.png"
+    },
+    {
+      "id": 29,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 9",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote9.jpg"
+    },
+    {
+      "id": 30,
+      "category": "AndroidRedmi",
+      "name": "Redmi Note 9 Prime",
+      "price": 599,
+      "image": "/Assets/ProductCategory/Mobiles/Redmi/Redmi9Prime.jpg"
+    },
+    {
+      "id": 31,
+      "category": "AndroidOppo",
+      "name": "Oppo Reno6 5G",
+      "price": 36790,
+      "desc": "Oppo Reno6 5G, 8GB + 128GB Storage Phone (Black,12GB RAM,256GB Storage), Medium (CPH2249)",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoReno6.jpeg"
+    },
+    {
+      "id": 32,
+      "category": "AndroidOppo",
+      "name": "Oppo A78 5G",
+      "price": 21999,
+      "desc": "Oppo A78 5G (Glowing Black,8GB RAM, 128GB Storage),Item Model Number-CPH2495",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoA78.jpeg"
+    },
+    {
+      "id": 33,
+      "category": "AndroidOppo",
+      "name": "Oppo K10",
+      "price": 18595,
+      "desc": "Oppo K10, 8GB + 128GB Storage Phone (Black Carbon, 5000 mAh Lithium Ion Polymer Battery,Item Model Number-CPH2337",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoK10.jpeg"
+    },
+    {
+      "id": 34,
+      "category": "AndroidOppo",
+      "name": "Oppo F11 Pro",
+      "price": 21989,
+      "desc": "Oppo F11 Pro, 8GB + 128GB Storage Phone (Green,6GB RAM,256GB Storage),CPH1969",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoF11Pro.jpg"
+    },
+    {
+      "id": 35,
+      "category": "AndroidOppo",
+      "name": "Oppo F15",
+      "price": 12252,
+      "desc": "Oppo F15, 8GB + 128GB Storage Phone (Light Carbon Black,8GB RAM,128GB Storage),CPH2342",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoF15.jpg"
+    },
+    {
+      "id": 36,
+      "category": "AndroidOppo",
+      "name": "Oppo F21 Pro Plus",
+      "price": 27999,
+      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoF21.jpg"
+    },
+    {
+      "id": 37,
+      "category": "AndroidSamsung",
+      "name": "Samsung",
+      "price": 27999,
+      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "image": "/Assets/ProductCategory/Mobiles/Samsung/S22.jpg"
+    },
     {
       "id": 38,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 12 Pro+",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote12Pro+.jpg"
+      "category": "AndroidSamsung",
+      "name": "Samsung",
+      "price": 27999,
+      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "image": "/Assets/ProductCategory/Mobiles/Samsung/m53.jpg"
     },
     {
       "id": 39,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 11 Pro+",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote11Pro+.jpg"
+      "category": "AndroidSamsung",
+      "name": "Samsung",
+      "price": 27999,
+      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "image": "/Assets/ProductCategory/Mobiles/Samsung/a14.jpeg"
     },
     {
-      "id":40,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 10 Pro" ,
-      "price": 599,
-      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote10Pro.jpg"
-    },
-    {
-      "id": 41,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 11 Pro+",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote10.png"
-    },
-    {
-      "id": 42,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 11 Pro+",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Mobiles/Android/Redmi/RedmiNote12Pro+.jpeg"
-    },
-    {
-      "id": 43,
-      "category": "AndroidRedmi",
-      "name": "Redmi Note 11 Pro+",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
-    },
-    {
-      "id": 42,
-      "category": "AndroidOppo",
-      "name": "U Shirts",
-      "price": 599,
-      "image": "/Assets/ProductCategory/Jewels/Bangles/BanglesMain.jpeg"
+      "id": 40,
+      "category": "AndroidSamsung",
+      "name": "Samsung",
+      "price": 27999,
+      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "image": "/Assets/ProductCategory/Mobiles/Samsung/s20 fe.jpg"
     }
   ]
 }

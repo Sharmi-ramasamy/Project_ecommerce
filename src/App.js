@@ -1,13 +1,11 @@
 import './App.css';
-
 import { Routing } from './Routers';
-import data from './Components/Back/Data/Data'
 import { useState } from 'react';
 import { CategoryHeader } from './Components/Category/CategoryHeader';
-import Header from './Common/Header/Header';
+
 
 function App() {
-  const {productItems}=data;
+  
   const [cartItems,setCartItems]=useState([])
 
   const handleAddProduct=(product)=>{
@@ -43,9 +41,9 @@ function App() {
 
   return (
     <>
-        {/* <CategoryHeader/> */}
-        {<Header/>}
-        <Routing productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance}/>
+        <CategoryHeader/>
+        
+        <Routing  cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance}/>
         
     </>
   );

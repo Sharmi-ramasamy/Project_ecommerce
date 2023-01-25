@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './CategoryHeader.css'
 import { useNavigate } from 'react-router-dom'
 
-export const CategoryHeader = ({cartItems}) => {
+export const CategoryHeader = () => {
     const navigate=useNavigate()
   const handleChange =()=> {
     console.log('done');
@@ -31,15 +31,18 @@ navigate('/category')
                 <li>
                     <Link to='/'> Home </Link>
                 </li>
+
+                {/* <li>
+                    <Link to='/category'> Category </Link>
+                </li> */}
             
             
-                <li id='category' onClick={handleChange}>
-                    <Link to='/Category'> Category </Link>
+                <li onClick={handleChange}>
+                    <Link to='/category'> Category </Link>
                 </li>
 
               
-                 {/* <a id='category' onClick={handleChange}>Category 
-                   </a>  */}
+                
 
             
             

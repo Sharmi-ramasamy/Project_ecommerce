@@ -3,6 +3,8 @@ import { CategoryHeader } from '../../Components/Category/CategoryHeader';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { LoginHeader } from './LoginHeader';
 
 
@@ -15,7 +17,7 @@ export default function Login() {
   
   }
   const PasswordValid=(password) => {
-    const passwordRegex=/^(?=.*[0-9])(?=.*[!@#$%*])([a-zA-Z0-9!@#$%*].{9,16})$/
+    const passwordRegex=/^(?=.*[0-9])(?=.*[!@#$%*])([a-zA-Z0-9!@#$%*]{9,20})$/
     return passwordRegex.test(password)
   }
 
@@ -33,7 +35,7 @@ export default function Login() {
 
 
   // const handleChange=(event) => {
-  //   // setInput({...input, [event.target.name]: event.target.value});
+  //   setInput({...input, [event.target.name]: event.target.value});
     
   // }
 
@@ -46,10 +48,10 @@ export default function Login() {
         sessionStorage.setItem("id",res.data[0].id)
         sessionStorage.setItem('email',res.data[0].email)
         navigate('/category')
-       }
+       } 
        else{
-        setError("Invalid credential")
-        navigate('/signup')
+        setError("Invalid credentials")
+        // navigate('/signup')
        }
     
     // console.log(res.data[0])
@@ -98,15 +100,25 @@ export default function Login() {
             <form onSubmit={handleSubmit}>
             
                 <label> Email </label>
-                <input type="text" placeholder="Enter Email Id " name='email' onChange={(e)=>setUserEmail(e.target.value)} required /> 
+                <input type="text" placeholder="Enter Email Id " name='email' onChange={(e)=>setUserEmail(e.target.value)} /> 
                 <strong className='error-msg'> {emailError} </strong>
 
                 <label> Password</label>
-                <input type="password" placeholder="Enter password" name='password' onChange={(e)=>setUserPassword(e.target.value)} required  />
+                <input type="password" placeholder="Enter password" name='password' onChange={(e)=>setUserPassword(e.target.value)}/>
                 <strong className='error-msg'> {passwordError} </strong>
-                {Error&&<p style={{color:'blue'}}>{Error}</p>}
+                {Error&& <p style={{color:'blue'}}> {Error} </p>} 
 
-                <input type="submit" value="Login"/>
+                <button type="submit"> Login </button> 
+
+             
+              <Link className='signup' to="/signup"> 
+              <button> Sign Up </button></Link> 
+        
+
+           
+            {/* <a href='/signup' className='signup' > Signup </a>  */}
+            
+
             </form>
             
         </div>
