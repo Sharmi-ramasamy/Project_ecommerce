@@ -11,7 +11,6 @@ import { LoginHeader } from './LoginHeader';
 export default function Login() {
   
   const EmailValid = (email) =>{
-   
      const emailRegex= /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/
      return emailRegex.test(email)
   
@@ -31,7 +30,6 @@ export default function Login() {
   const [passwordError,setPasswordError]=useState("");
   // const [successMessage,setSuccessMessage]=useState("")
   const [isLoggedin,setIsLoggedin]=useState(false)
-
 
 
   // const handleChange=(event) => {
