@@ -2,7 +2,7 @@ import './App.css';
 import { Routing } from './Routers';
 import { useState } from 'react';
 import { CategoryHeader } from './Components/Category/CategoryHeader';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
 
 function App() {
   

@@ -2,15 +2,18 @@ import React from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import './Android.css'
 import { CategoryHeader } from '../CategoryHeader'
+// import { SubCategory } from '../SubCategory'
+import { MobileSubCategory } from './MobileSubCategory'
 
 export const MobilesCategory = () => {
   return (
     <>
     
       <div className='container'>
-       
+       {/* <SubCategory/> */}
+       <MobileSubCategory/>
          
-      <div className='card'>
+      {/* <div className='card'>
           <div className='product-image'>
           <Link to='/products/AndroidRedmi'>
               <img src=' /Assets/ProductCategory/Mobiles/Redmi/RedmiMain.jpg' alt='' />
@@ -41,7 +44,7 @@ export const MobilesCategory = () => {
               </div> </Link>
           </div>
           </div>
-
+ */}
           
         
       </div>

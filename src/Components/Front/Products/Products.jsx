@@ -23,7 +23,7 @@ useEffect(() => {
        <div className='products'>
 
             {items && items.map((productItem)=>(
-                <div key={productItem.id} className='cards'>
+                <div key={productItem.id} className='productcards'>
                     <div>
                         <img className='products-images' src={productItem.image} alt={productItem.name}/>
                     </div>

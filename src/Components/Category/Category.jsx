@@ -13,7 +13,7 @@ export const Category = () => {
 
       
       <div className='container'>
-        <div className='card'>
+        <div className='procard'>
 
           <div className='product-image'>\
           <Link to='/JewelCategory'> 
@@ -27,7 +27,7 @@ export const Category = () => {
 
         </div>
           
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/MobileCategory'>
             {/* <a href='MobileCategory'> */}
@@ -38,7 +38,7 @@ export const Category = () => {
           </div>
           </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/ShoeCategory'>
             {/* <a href='ShoeCategory'> */}
@@ -49,7 +49,7 @@ export const Category = () => {
           </div>
           </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/DressCategory'> 
             {/* <a href='DressCategory'> */}

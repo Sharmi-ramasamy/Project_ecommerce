@@ -45,10 +45,12 @@ export default function Login() {
         setIsLoggedin(true)
         sessionStorage.setItem("id",res.data[0].id)
         sessionStorage.setItem('email',res.data[0].email)
+        // alert('Login successful')
         navigate('/category')
        } 
        else{
         setError("Invalid credentials")
+        alert('Please Enter the Valid Credentials')
         // navigate('/signup')
        }
     
@@ -104,18 +106,13 @@ export default function Login() {
                 <label> Password</label>
                 <input type="password" placeholder="Enter password" name='password' onChange={(e)=>setUserPassword(e.target.value)}/>
                 <strong className='error-msg'> {passwordError} </strong>
-                {Error&& <p style={{color:'blue'}}> {Error} </p>} 
+                {Error&& <p style={{color:'palevioletred'}}> {Error} </p>} 
 
-                <button type="submit"> Login </button> 
+                <button className='button' type="submit" disabled={!useremail}> Login </button> 
 
              
               <Link className='signup' to="/signup"> 
-              <button> Sign Up </button></Link> 
-        
-
-           
-            {/* <a href='/signup' className='signup' > Signup </a>  */}
-            
+              <button className='button'> Sign Up </button></Link> 
 
             </form>
             

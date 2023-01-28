@@ -41,10 +41,9 @@ navigate('/category')
                     <Link to='/category'> Category </Link>
                 </li>
 
-              
-                
-
-            
+                <li>
+                    <Link to='/'> Logout </Link>
+                </li>
             
                 <li>
                     <Link to='/cart' className='cart'> 
@@ -54,6 +53,7 @@ navigate('/category')
                         </span> */}
                      </Link>
                 </li>
+
             </ul>
 
 

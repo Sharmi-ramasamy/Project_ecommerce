@@ -81,9 +81,9 @@ button {
   background-color: none;
 } */
 
-.row {
+/* .row {
   width: 50%;
-}
+} */
 
 .icon-circle {
   width: 50px;
@@ -96,3 +96,6 @@ button {
 }
 
 
+body {
+  overflow-x: hidden;
+}

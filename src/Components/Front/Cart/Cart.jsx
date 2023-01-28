@@ -18,7 +18,7 @@ export const Cart = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartC
             </div>
             
             {cartItems.length === 0 && (
-                <div className='cart-items-empty'> No Items are Added. </div>
+                <div className='cart-items-empty'> Cart is Empty. </div>
             )}
 
             <div>

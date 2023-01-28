@@ -8,11 +8,11 @@ import { Category } from './Components/Category/Category';
 import {JewelCategory} from './Components/Category/Jewels/JewelCategory'
 import { MobilesCategory } from './Components/Category/Mobiles/MobilesCategory';
 import { ShoeCategory } from './Components/Category/Shoes/ShoeCategory';
-import { WatchCategory } from './Components/Category/WatchCategory';
+import { WatchCategory } from './Components/Category/Watch/WatchCategory';
 import { DressCategory } from './Components/Category/Dress/DressCategory';
 import { ProductPage } from './Components/Front/Products/ProductPage';
-import { MensCategory } from './Components/Category/Dress/Mens/MensCategory';
 import { Cart } from './Components/Front/Cart/Cart';
+
 
 
 export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) => {
@@ -25,17 +25,15 @@ export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCa
 
           <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
-          <Route path='signup' element={<Signup/>}/>
+          <Route path='/signup' element={<Signup/>}/>
           <Route path='/category' element={<Category/>}/> 
           <Route path='jewelcategory' element={<JewelCategory/>}/>
           <Route path='mobilecategory' element={<MobilesCategory/>}/>
           <Route path='shoecategory' element={<ShoeCategory/>}/>
           <Route path='watchcategory' element={<WatchCategory/>}/>
           <Route path='dresscategory' element={<DressCategory/>}/>
-          <Route path='menscategory' element={<MensCategory/>}/>
           <Route path='products/:category' element={<ProductPage handleAddProduct={handleAddProduct}/>}/>
           <Route path='cart' element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance} />}/>
-
           </Routes>   
         
 

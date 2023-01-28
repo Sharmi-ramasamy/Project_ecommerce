@@ -45,6 +45,17 @@ form input {
     outline: none;
 }
 
+.button {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
 
 p {
     text-align:justify;
@@ -64,5 +75,15 @@ p {
 
 }
 
+.button {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
 
 

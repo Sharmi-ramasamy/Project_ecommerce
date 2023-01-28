@@ -3,14 +3,18 @@ import { Link } from 'react-router-dom'
 
 import '../Category.css'
 import { CategoryHeader } from '../CategoryHeader'
+import { DressSubCategory } from './DressSubCategory'
 
 export const DressCategory = () => {
   return (
     <>
-        {/* <CategoryHeader/> */}
-      <div className='container'>
 
-          <div className='card'>
+      <DressSubCategory/>
+
+        {/* <CategoryHeader/> */}
+      {/* <div className='container'>
+
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/MensCategory'>
               <img src='./Assets/ProductCategory/Dresses/Mens/MensMain.jpg' alt='' />
@@ -20,7 +24,7 @@ export const DressCategory = () => {
           </div>
           </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/'>
               <img src='./Assets/ProductCategory/Dresses/Womens/WomensMain.jpeg' alt='' />
@@ -30,7 +34,7 @@ export const DressCategory = () => {
           </div>
           </div>
 
-    <div className='card'>
+    <div className='procard'>
 
      <div className='product-image'>
      <Link to='/'>
@@ -44,7 +48,7 @@ export const DressCategory = () => {
 
         
 
-      </div>
+      </div> */}
 
 
     </>

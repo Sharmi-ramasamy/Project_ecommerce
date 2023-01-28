@@ -19,7 +19,7 @@ export default function Signup() {
  }
 
  const NameValid=(name)=> {
-  const nameRegex=/^[a-zA-Z]+$/ 
+  const nameRegex=/^[a-zA-Z]{8,20}$/ 
   return nameRegex.test(name)
  }
 
@@ -43,12 +43,10 @@ export default function Signup() {
         setIsLoggedin(true)
         sessionStorage.setItem("id",res.data[0].id)
         sessionStorage.setItem('email',res.data[0].email)
-        navigate('/category')
+        alert('Signup successful')
+        navigate('/login')
        }
-       else{
-        setError("Invalid credentials")
-        
-       }
+      
       }) .catch((err)=>{console.log(err)})
       CheckEmail();
       CheckPassword();
@@ -102,20 +100,20 @@ export default function Signup() {
           <input value={password} onChange={event=>setPassword(event.target.value)} type="password" placeholder="Enter password"/>
           <strong className='error-msg'> {passwordError} </strong>
           {Error&& <p style={{color:'blue'}}> {Error} </p>} 
+          <br/> <br/> <br/>
 
-
-          <button type='submit'> Signup </button>
+          <button className='button' type='submit'  disabled={!email}> Signup </button>
 
           <Link className='signup' to="/login"> 
-              <button> Login </button></Link> 
+              <button className='button'> Login </button></Link> 
 
         </form>   <br/>
-      
+{/*       
         <div className="terms">
           <input type="checkbox" id="checkbox" />
             <label htmlFor="checkbox"> I agree to the Terms & Conditions </label>
             
-        </div>
+        </div> */}
 
       </div>
 

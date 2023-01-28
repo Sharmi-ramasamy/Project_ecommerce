@@ -5,6 +5,7 @@ import axios from 'axios'
 import '../Category.css'
 import { CategoryHeader } from '../CategoryHeader'
 import { useEffect } from 'react'
+import { JewelSubCategory } from './JewelSubCategory'
 
 export const JewelCategory = () => {
 
@@ -12,9 +13,11 @@ export const JewelCategory = () => {
     return (
     <>
 
+    <JewelSubCategory/>
+
     {/* <CategoryHeader/> */}
-      <div className='container'>
-        <div className='card'>
+      {/* <div className='container'>
+        <div className='procard'>
 
           <div className='product-image'>
             <Link to={'/products/Bangles'}>
@@ -26,7 +29,7 @@ export const JewelCategory = () => {
 
         </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/products/Necklace'>
               <img src='./Assets/ProductCategory/Jewels/Necklace/NecklaceMain.jpeg' alt='' />
@@ -36,7 +39,7 @@ export const JewelCategory = () => {
           </div>
           </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/products/Ring'> 
               <img src='./Assets/ProductCategory/Jewels/Ring/RingMain.png' alt='' />
@@ -46,7 +49,7 @@ export const JewelCategory = () => {
           </div>
           </div>
 
-          <div className='card'>
+          <div className='procard'>
           <div className='product-image'>
             <Link to='/products/Earings'> 
               <img src='./Assets/ProductCategory/Jewels/Earings/EaringsMain.jpeg' alt='' />
@@ -60,7 +63,7 @@ export const JewelCategory = () => {
 
 
 
-      </div>
+      </div> */}
 
 
     </>

@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
 }
 
-.container .card {
+.container .procard {
     width: 270px;
     overflow: hidden;
     text-align: center;
@@ -33,22 +33,22 @@ body {
     box-shadow: 0 0 7px rgba(0,0,0,0.8);
 }
 
-.container .card .product-image {
+.container .procard .product-image {
     width: 230px;    
     margin: 20px auto;
 }
 
-.container .card .product-image img{
+.container .procard .product-image img{
     width: 100%;
     height: 200px;
     transition: 0.4s;
 }
 
-.container .card .product-image img:hover{
+.container .procard .product-image img:hover{
    transform: scale(1.1);
 }
 
-.container .card .product-info {
+.container .procard .product-info {
     font-size: 18px;
     padding: 0 25px;
     margin-bottom: 10px;
