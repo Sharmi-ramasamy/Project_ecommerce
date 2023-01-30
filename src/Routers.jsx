@@ -15,7 +15,13 @@ import { Cart } from './Components/Front/Cart/Cart';
 
 
 
+
+
 export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) => {
+
+
+  
+  
   return (
     <>
 
@@ -27,13 +33,14 @@ export const Routing = ({cartItems,handleAddProduct,handleRemoveProduct,handleCa
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/category' element={<Category/>}/> 
-          <Route path='jewelcategory' element={<JewelCategory/>}/>
+          <Route path='jewelcategory' element={<JewelCategory />}/>
           <Route path='mobilecategory' element={<MobilesCategory/>}/>
           <Route path='shoecategory' element={<ShoeCategory/>}/>
           <Route path='watchcategory' element={<WatchCategory/>}/>
           <Route path='dresscategory' element={<DressCategory/>}/>
-          <Route path='products/:category' element={<ProductPage handleAddProduct={handleAddProduct}/>}/>
+          {/* <Route path='product/:category' element={<ProductPage handleAddProduct={handleAddProduct}/>}/> */}
           <Route path='cart' element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance} />}/>
+        
           </Routes>   
         
 

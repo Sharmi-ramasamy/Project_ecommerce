@@ -44,7 +44,7 @@ export default function Signup() {
         sessionStorage.setItem("id",res.data[0].id)
         sessionStorage.setItem('email',res.data[0].email)
         alert('Signup successful')
-        navigate('/login')
+        // navigate('/login')
        }
       
       }) .catch((err)=>{console.log(err)})
@@ -74,7 +74,7 @@ export default function Signup() {
 
   function CheckName() {
     if (!NameValid(name)) {
-      return setNameError("UserName should contain smallcase or lowercase ");
+      return setNameError("UserName should contain Minimum 8 Characters with smallcase or lowercase");
     }
     else {
       return setNameError(" ");

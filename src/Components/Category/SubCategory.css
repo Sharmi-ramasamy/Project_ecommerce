@@ -1,16 +1,62 @@
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#search-container {
+    margin: 1em 0;
+}
+
+#search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+
+#search-container input:focus {
+    border-bottom-color: #6759ff;
+}
+
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.button-value {
+    margin: 1em 0;
+    border: 2px solid #6759ff;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: #6759ff;
+    color: white;
+    cursor:pointer;
+}
+
+/* .active {
+    background-color: #6759ff;
+    color: #ffffff;
+} */
+
+
+
 .products {
     margin: 20px auto;
     width: 90%;
-    display:flex;
+    /* display:flex; */
     justify-content: space-around;
     flex-wrap: wrap;
     background-color:black;
     border-radius: 5px;
 }
 
-.cards {
+.productcards {
     width:300px;
-    height: 750px;
+    height: 800px;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
@@ -53,7 +99,8 @@
 .product-add-button {
     font-weight: 700;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius:8px;
+    /* border-bottom: 20px; */
     border: none;
     outline: none;
     background-color: black;
@@ -63,7 +110,8 @@
     display:block;
     cursor: pointer;
     text-transform: uppercase;
-    margin: 90px auto;
+    /* padding-bottom: 10px; */
+    margin: 80px auto;
 }
 
 .product-add-button:hover {
@@ -73,4 +121,5 @@
 .product-add-button:active {
     transform: translateY(2px);
 }
+
 

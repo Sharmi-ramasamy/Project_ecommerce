@@ -40,10 +40,6 @@ navigate('/category')
                 <li onClick={handleChange}>
                     <Link to='/category'> Category </Link>
                 </li>
-
-                <li>
-                    <Link to='/'> Logout </Link>
-                </li>
             
                 <li>
                     <Link to='/cart' className='cart'> 

@@ -3,20 +3,30 @@ import './Cart.css'
 import { CategoryHeader } from '../../Category/CategoryHeader'
 
 export const Cart = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) => {
-    const totalPrice=cartItems.reduce((price,item)=> price + item.quantity * item.price, 0)
+    
+     cartItems=JSON.parse(sessionStorage.getItem("CartItems"))
+     console.log("CartItems",cartItems);
+     var totalPrice
+     if(cartItems!=null)
+     {
+    totalPrice=cartItems.reduce((price,item)=> price + item.quantity * item.price , 0)
+     }
+    console.log(totalPrice)
+    if(cartItems!=null)
+    {
   return (
     <>
     {/* <CategoryHeader cartItems={cartItems}/> */}
         <div className='cart-items'>
             <h2 className='cart-items-header'> Cart Items </h2>
-            <div className='clear-cart'>
+            {/* <div className='clear-cart'>
                 {
                      cartItems.length >= 1 && (
                         <button className='clear-cart-button' onClick={handleCartClearance}> Clear Cart </button>
                     )
                 }
             </div>
-            
+             */}
             {cartItems.length === 0 && (
                 <div className='cart-items-empty'> Cart is Empty. </div>
             )}
@@ -27,8 +37,8 @@ export const Cart = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartC
                     <img className='cart-items-image' src={item.image} alt={item.name}/>
                     <div className='cart-items-name'> {item.name} </div>
                     <div className='cart-items-function'>
-                        <button className='cart-items-add' onClick={()=>handleAddProduct(item)}> + </button>
-                        <button className='cart-items-remove' onClick={()=>handleRemoveProduct(item)}> - </button>
+                        {/* <button className='cart-items-add' onClick={()=>handleAddProduct(item)}> + </button> */}
+                        <button className='cart-items-remove' onClick={()=>handleRemoveProduct(item)}> Remove Item </button>
                     </div>
 
                     <div className='cart-items-price'>
@@ -49,5 +59,9 @@ export const Cart = ({cartItems,handleAddProduct,handleRemoveProduct,handleCartC
 
         </div>  
     </>
-  )
+  )}
+//   else 
+//   {
+//     return(<h1>cart is empty</h1>)
+//   }
 }

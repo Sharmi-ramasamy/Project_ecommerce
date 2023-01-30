@@ -1,49 +1,29 @@
 import './App.css';
 import { Routing } from './Routers';
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
 import { CategoryHeader } from './Components/Category/CategoryHeader';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
+import axios from 'axios';
 
 function App() {
   
-  const [cartItems,setCartItems]=useState([])
+  
+    const handleRemoveProduct =(product) => {
 
-  const handleAddProduct=(product)=>{
-    const ProductExist=cartItems.find((item)=>item.id ===product.id)
-    if(ProductExist) {
-      setCartItems(cartItems.map((item)=>item.id === product.id ? 
-      {...ProductExist,quantity:ProductExist.quantity +1} : item)
-      );
-    }
-      else {
-        setCartItems([...cartItems,{...product,quantity:1}]);
-      }
+      console.log(product.id)
+      let items=JSON.parse(sessionStorage.getItem("CartItems"));
+      let cart=items.filter((item)=>{if(item.id!==product.id) return item})
+
+      sessionStorage.setItem("CartItems",JSON.stringify(cart));
     
     }
 
-    const handleRemoveProduct =(product) => {
-      const ProductExist=cartItems.find((item)=>item.id ===product.id);
-      if(ProductExist.quantity ===1) {
-        setCartItems(cartItems.filter((item)=>item.id !== product.id));
-      }
-      else {
-        setCartItems(
-          cartItems.map((item)=> item.id === product.id ? {...ProductExist,quantity:ProductExist.quantity - 1}:item
-        )
-        )
-      }
-      
-    }
-
-    const handleCartClearance=()=> {
-        setCartItems([]);
-    }
+    
 
   return (
     <>
         <CategoryHeader/>
         
-        <Routing  cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClearance={handleCartClearance}/>
+        <Routing handleRemoveProduct={handleRemoveProduct}/>
         
     </>
   );

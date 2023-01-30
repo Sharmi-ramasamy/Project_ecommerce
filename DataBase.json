@@ -41,9 +41,8 @@
       "email": "Shankar@gmail.com",
       "password": "Shankar@12345",
       "id": 6
-    }  
+    }
   ],
-
 
   
   "ProductItems": [
@@ -51,21 +50,24 @@
       "id": 1,
       "category": "Bangles",
       "name": "Kagan Bangle",
-      "price": 599,
+      "price": 699,
+      "desc":"Kagan Bangles, New Model made in India, With White and Green stoned worked bangle, and also with fine cutting work",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle1.jpg"
     },
     {
       "id": 2,
       "category": "Bangles",
       "name": "Slim Golden Bangle",
-      "price": 599,
+      "price": 496,
+      "desc":"Slim Golden Bangle with simple designing work, fine finishing work eith fine cutting and can be used for normal purpose",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle2.jpg"
     },
     {
       "id": 3,
       "category": "Bangles",
       "name": "Kadiyam",
-      "price": 599,
+      "price": 699,
+      "desc":"Kadiyam, a simple unique bangle ever,unique look with extra ordinary finishing work and pure gold with all the fine finishing work",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle5.jpeg"
     },
     {
@@ -73,13 +75,15 @@
       "category": "Bangles",
       "name": "Kagan Bangles",
       "price": 599,
+      "desc":"Kagan Bangles, Bangle With Red Stone work at the centered, gives the great look and new model manufactured at China,great look ever",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle4.jpeg"
     },
     {
       "id": 5,
       "category": "Bangles",
       "name": "Golden-Red Bangles",
-      "price": 599,
+      "price": 799,
+      "desc":"Golden Red Bangles,one of the best fit for party wears and gives a grant look ever,all sizes are available",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle6.jpeg"
     },
     {
@@ -87,179 +91,211 @@
       "category": "Bangles",
       "name": "Emerald Uncut Bangles",
       "price": 599,
-      "desc": "Cheap and best",
+      "desc": "Emerald Uncut Bangles, one of the Cheap and best bangle with high quality and great finishing work and also is manufactured from Singapore.",
       "image": "/Assets/ProductCategory/Jewels/Bangles/Bangle3.jpeg"
     },
+
+
     {
       "id": 7,
       "category": "Necklace",
       "name": "Golden with pearls",
-      "price": 599,
+      "price": 999,
+      "desc":"Golden With Pearls, attractive necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace1.jpg"
     },
     {
       "id": 8,
       "category": "Necklace",
       "name": "V-shaped Necklace",
-      "price": 599,
+      "price": 899,
+      "desc":"V-shaped Necklace, attractive necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace2.jpeg"
     },
     {
       "id": 9,
       "category": "Necklace",
       "name": "Lakshmi Necklace",
-      "price": 599,
+      "price": 1599,
+      "desc":"Lakshmi Dollared Necklace, attractive necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace3.jpg"
     },
     {
       "id": 10,
       "category": "Necklace",
       "name": "Diamond Necklace",
-      "price": 599,
+      "price": 123599,
+      "desc":"Golden With Pearls, attractive diamond necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace4.jpeg"
     },
     {
       "id": 11,
       "category": "Necklace",
       "name": "Green Diamond Necklace",
-      "price": 599,
+      "price": 261599,
+      "desc":"Green Diamond Necklace, attractive necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace6.jpeg"
     },
     {
       "id": 12,
       "category": "Necklace",
       "name": "Golden Diamond",
-      "price": 599,
+      "price": 48599,
+      "desc":"Golen Diamond Necklace, attractive necklace,availability is limited,Made in India,Excellent Party Wear",
       "image": "/Assets/ProductCategory/Jewels/Necklace/Necklace5.jpeg"
     },
+
+
     {
       "id": 13,
       "category": "Ring",
-      "name": "Ring1",
-      "price": 599,
+      "name": "Golden Ring",
+      "price": 21599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring1.jpg"
     },
     {
       "id": 14,
       "category": "Ring",
-      "name": "Ring2",
-      "price": 599,
+      "name": "Silver Ring",
+      "price": 2599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring2.jpg"
     },
     {
       "id": 15,
       "category": "Ring",
-      "name": "Ring3",
-      "price": 599,
+      "name": "Copper mixed Gold Ring",
+      "price": 24599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring3.jpeg"
     },
     {
       "id": 16,
       "category": "Ring",
-      "name": "Ring4",
-      "price": 599,
+      "name": "Simple Gold Ring",
+      "price": 25199,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring4.jpg"
     },
     {
       "id": 17,
       "category": "Ring",
-      "name": "Ring5",
-      "price": 599,
+      "name": "Diamond Ring",
+      "price": 56599,
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring5.jpeg"
     },
     {
       "id": 18,
       "category": "Ring",
-      "name": "Ring6",
-      "price": 599,
+      "name": "Silver Offer Ring",
+      "price": 2599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Ring/Ring6.jpg"
     },
+
+
     {
       "id": 19,
       "category": "Earings",
-      "name": "Earings1",
+      "name": "Black Metal Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E1.jpg"
     },
     {
       "id": 20,
       "category": "Earings",
-      "name": "Earings2",
+      "name": "Silver Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E2.jpg"
     },
     {
       "id": 21,
       "category": "Earings",
-      "name": "Earings3",
+      "name": "Flower Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E3.jpg"
     },
     {
       "id": 22,
       "category": "Earings",
-      "name": "Earings4",
+      "name": "New Rounded Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E6.jpg"
     },
     {
       "id": 23,
       "category": "Earings",
-      "name": "Earings5",
+      "name": "Golden Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E9.jpeg"
     },
     {
       "id": 24,
       "category": "Earings",
-      "name": "Earings6",
+      "name": "Green Pink Combo Earing",
       "price": 599,
+      "desc":"",
       "image": "/Assets/ProductCategory/Jewels/Earings/E14.jpg"
     },
+
 
 
     {
       "id": 25,
       "category": "Redmi",
       "name": "Redmi Note 12 5G",
-      "price": 599,
+      "price": 17999,
+      "desc": "Redmi Note 12 5G Matte Black 4GB RAM 128GB ROM | 1st Phone with 120Hz Super AMOLED and Snapdragon® 4 Gen 1 | 48MP AI Triple Camera",
       "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote12.jpg"
     },
     {
       "id": 26,
       "category": "Redmi",
       "name": "Redmi Note 11 Pro+",
-      "price": 599,
+      "price": 19999,
+      "desc": "Redmi Note 11 Pro+ 5G , 6GB+128GB, Mirage Blue",
       "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote11Pro+.jpg"
     },
     {
       "id": 27,
       "category": "Redmi",
       "name": "Redmi Note 10 Pro",
-      "price": 599,
+      "price": 18999,
+      "desc": "Xiaomi Redmi Note 10 Pro 128 GB (Dark Nebula, 6 GB RAM)",
       "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote10Pro.jpg"
     },
     {
       "id": 28,
       "category": "Redmi",
       "name": "Redmi Note 10",
-      "price": 599,
+      "desc": "Redmi Note 10 (Dark Black , 8GB,128 GB",
+      "price": 13999,
       "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote10.png"
     },
     {
       "id": 29,
       "category": "Redmi",
       "name": "Redmi Note 9",
-      "price": 599,
+      "price": 12599,
+      "desc": "Redmi Note 9,Light Blue,6GB,256 GB",
       "image": "/Assets/ProductCategory/Mobiles/Redmi/RedmiNote9.jpg"
     },
     {
       "id": 30,
       "category": "Redmi",
       "name": "Redmi Note 9 Prime",
-      "price": 599,
+      "price": 13599,
+      "desc": "Redmi Note 9 Prime,Light Purple, 8GB , 256GB",
       "image": "/Assets/ProductCategory/Mobiles/Redmi/Redmi9Prime.jpg"
     },
+
+
     {
       "id": 31,
       "category": "Oppo",
@@ -308,44 +344,48 @@
       "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
       "image": "/Assets/ProductCategory/Mobiles/Oppo/OppoF21.jpg"
     },
+
+
     {
       "id": 37,
       "category": "Samsung",
       "name": "Samsung Galaxy S22",
-      "price": 27999,
-      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "price": 106999,
+      "desc": "Samsung Galaxy S22 Ultra 5G (Burgundy, 12GB, 256GB Storage)",
       "image": "/Assets/ProductCategory/Mobiles/Samsung/S22.jpg"
     },
     {
       "id": 38,
       "category": "Samsung",
       "name": "Samsung Galaxy M53",
-      "price": 27999,
-      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "price": 25999,
+      "desc": "Samsung Galaxy M53 5G (Charcoal Black, 8GB, 128GB Storage)",
       "image": "/Assets/ProductCategory/Mobiles/Samsung/m53.jpg"
     },
     {
       "id": 39,
       "category": "Samsung",
       "name": "Samsung Galaxy A14",
-      "price": 27999,
-      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "price": 16499,
+      "desc": "Samsung Galaxy A14,Light Green,5G,4GB|64GB",
       "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/75868132-1423-4711-a232-b200d78188c123201257_416x416.jpg"
     },
     {
       "id": 40,
       "category": "Samsung",
       "name": "Samsung Galaxy S21",
-      "price": 27999,
-      "desc": " Vivo Y22 (Starlit Blue, 6GB RAM, 128GB Storage)",
+      "price": 83999,
+      "desc": "Samsung Galaxy S21 5G (Phantom Violet, 8GB, 128GB Storage)",
       "image": "https://images.samsung.com/is/image/samsung/assets/uk/2201/preorder/1_image_carousel/4_product_image/S21FE_Carousel_ProductImage_Lavender_MO.jpg"
     },
+
+    
     {
       "id": 41,
       "category": "Vivo",
       "name": "Vivo Y22",
       "price": 16499,
-      "desc": "Oppo F21 Pro, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
+      "desc": "Vivo Y22, 8GB + 128GB Storage Phone (Sunset Orange,8GB RAM,128GB Storage),CPH3467",
       "image": "https://m.media-amazon.com/images/I/41W7ucPjk3L._SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
@@ -370,7 +410,7 @@
       "name": "Vivo V23",
       "price": 15990,
       "desc": "Vivo V23 5G (Stardust Black, 12GB RAM) (256GB Storage)",
-      "image": "https://www.mantraman.in/wp-content/uploads/2022/03/ESF.jpg"
+      "image": "https://clickmobile.pk/wp-content/uploads/2022/01/vivo-v23.jpg"
     },
     {
       "id": 45,
@@ -535,8 +575,158 @@
       "category": "Kids",
       "name": "Kids Shoes",
       "price": 199,
-      "desc": "These chunky little sliders are a must-have for little feet on the move! The shoe features a unicorn inspired design, thick sole, closed toe",
+      "desc": "These chunky little sliders are a must-have for little feet on the move!",
       "image": "https://mrpg.scene7.com/is/image/MRP/01_100030465_SI_00"
+    },
+
+
+    {
+      "id": 65,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 869,
+      "desc": "Men's Business Suit Vest Slim Fit Dress Vest Wedding Waistcoat",
+      "image": "https://m.media-amazon.com/images/I/41Ul3T-M-dL.._SX._UX._SY._UY_.jpg"
+    },
+    {
+      "id": 66,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 725,
+      "desc": "Dennis Lingo Men's Solid Slim Fit Cotton Casual Shirt with Spread Collar & Full Sleeves",
+      "image": "https://m.media-amazon.com/images/I/516T+EyxFnS._SY879._SX._UX._SY._UY_.jpg"
+    },
+    {
+      "id": 67,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 699,
+      "desc": "TLF Men T-Shirt",
+      "image": "https://m.media-amazon.com/images/I/61xmzik7U8L._UX679_.jpg"
+    },
+    {
+      "id": 68,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 799,
+      "desc": "ONNIX Mens Waistcoat",
+      "image": "https://m.media-amazon.com/images/I/81gQoBOqmpL._UX679_.jpg"
+    },
+    {
+      "id": 69,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 699,
+      "desc": "BLIVE Men's Round Neck Full Sleeve T-Shirt | Printed White T-Shirt",
+      "image": "https://m.media-amazon.com/images/I/61N4pAuotBL._UX679_.jpg"
+    },
+    {
+      "id": 64,
+      "category": "DressMen",
+      "name": "Men Dress",
+      "price": 279,
+      "desc": "TLF Men T-Shirt",
+      "image": "https://m.media-amazon.com/images/I/61kSgS7lwTL._UX679_.jpg"
+    },
+
+    
+    {
+      "id": 64,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 789,
+      "desc": "KIPEK Women's Cotton Buta Print Anarkali Kurta",
+      "image": "https://m.media-amazon.com/images/I/71vMumYvJdL._UY879_.jpg"
+    },
+    {
+      "id": 70,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 990,
+      "desc": "Vahson Women's Viscose Indo Western Palazzo Pant Saree Set - Blur",
+      "image": "https://m.media-amazon.com/images/I/719hrkpsZNL._UY879_.jpg"
+    },
+    {
+      "id": 71,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 764,
+      "desc": "Velmita Women's Banarasi Cotton Silk Kanjivaram Style Saree With Blouse Piece(Free Size)",
+      "image": "https://m.media-amazon.com/images/I/81XohFfV0QL._UX679_.jpg"
+    },
+    {
+      "id": 72,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 399,
+      "desc": "Sheetal Associates Women's A-Line Maxi Dress",
+      "image": "https://m.media-amazon.com/images/I/71PbwbtGY5L._UX679_.jpg"
+    },
+    {
+      "id": 73,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 999,
+      "desc": "Drape & Dresses Women's Pure Chiffon Saree With Blouse Piece",
+      "image": "https://m.media-amazon.com/images/I/81FdJzPrgFL._SY879._SX._UX._SY._UY_.jpg"
+    },
+    {
+      "id": 74,
+      "category": "DressWomen",
+      "name": "Women Dress",
+      "price": 569,
+      "desc": "GoSriKi Women Kurta With Dupatta",
+      "image": "https://m.media-amazon.com/images/I/61Ov56SdKVS._UX679_.jpg"
+    },
+
+
+    {
+      "id": 75,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 549,
+      "desc": "Fashion Dream Girls Calf Length Pleated Dress",
+      "image": "https://m.media-amazon.com/images/I/61UIDB6j96L._UY879_.jpg"
+    },
+    {
+      "id": 76,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 1099,
+      "desc": "Princess Ball Gown Wedding Dress",
+      "image": "https://m.media-amazon.com/images/I/71zNe9Wrb2L._AC_UL640_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 77,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 399,
+      "desc": "Fashion Dream Girls Crepe Floral Printed Calf Length Dress",
+      "image": "https://m.media-amazon.com/images/I/71Ujdzf19AL._UY879_.jpg"
+    },
+    {
+      "id": 78,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 409,
+      "desc": "Vesham Boy's Silk Kurta Pajama",
+      "image": "https://m.media-amazon.com/images/I/81TqYkVsOeL._UY879_.jpg"
+    },
+    {
+      "id": 79,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 679,
+      "desc": "Bold N Elegant - Be Bold Inside & Elegant Outside Baby's Cotton Tshirt Pant Set",
+      "image": "https://m.media-amazon.com/images/I/51nUfiMuCLL._UX679_.jpg"
+    },
+    {
+      "id": 80,
+      "category": "DressKids",
+      "name": "Kids Dress",
+      "price": 609,
+      "desc": "Hopscotch Boys Overall & Dress Sets",
+      "image": "https://m.media-amazon.com/images/I/51xX3J8yjcS._UX679_.jpg"
     }
   ]
 }

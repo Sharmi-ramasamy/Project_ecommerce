@@ -1,17 +1,44 @@
 import React from 'react'
 import { Link, Navigate } from 'react-router-dom'
-import './Android.css'
+// import './Android.css'
 import { CategoryHeader } from '../CategoryHeader'
-// import { SubCategory } from '../SubCategory'
 import { MobileSubCategory } from './MobileSubCategory'
+import { useState } from 'react'
+
 
 export const MobilesCategory = () => {
+  const [cartItems,setCartItems]=useState(JSON.parse(sessionStorage.getItem("CartItems")))
+  
+  const handleAddProduct=(product,productid)=>{
+
+    const ProductExist=cartItems.find((item)=>item.id ===product.id)
+    // var ProductExist=false;
+    // var cartItems=sessionStorage.getItem("CartItems");
+    // if(cartItems!=null)
+    // {
+    //   ProductExist=true;
+    // }
+    setCartItems(...cartItems,productid)
+    console.log(cartItems);
+  sessionStorage.setItem("CartItems",JSON.stringify(cartItems))   
+    if(ProductExist) {
+      setCartItems(cartItems.map((item)=>item.id === product.id ? 
+      {...ProductExist,quantity:ProductExist.quantity +1} : item)
+      );
+    }
+      else {
+        setCartItems([...cartItems,{...product,quantity:1}]);
+      }
+    
+    }
+
+    
   return (
     <>
-    
-      <div className='container'>
-       {/* <SubCategory/> */}
-       <MobileSubCategory/>
+    <MobileSubCategory handleAddProduct={handleAddProduct}/>
+      {/* <div className='container'> */}
+     
+       
          
       {/* <div className='card'>
           <div className='product-image'>
@@ -47,7 +74,7 @@ export const MobilesCategory = () => {
  */}
           
         
-      </div>
+      {/* </div> */}
 
 
     </>

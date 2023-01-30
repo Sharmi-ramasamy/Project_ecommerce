@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { CategoryHeader } from '../../Components/Category/CategoryHeader';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
@@ -45,7 +45,9 @@ export default function Login() {
         setIsLoggedin(true)
         sessionStorage.setItem("id",res.data[0].id)
         sessionStorage.setItem('email',res.data[0].email)
-        // alert('Login successful')
+        let cart=[]
+        sessionStorage.setItem('CartItems',JSON.stringify(cart));
+        alert('Login successful')
         navigate('/category')
        } 
        else{
@@ -60,16 +62,8 @@ export default function Login() {
       
       
     }).catch((err)=>{console.log(err)})
-    // const validate= EmailValid(input.email)
-    // console.log(validate);
     CheckEmail();
-    // console.log('Email Validation Success');
     CheckPassword();
-    // console.log('Password Validation Success');
-
-    // if (input.email !== 'admin@gmail.com' || input.password !== 'Password@1' 
-    // return setEmailError
-    // )
   }
 
   
