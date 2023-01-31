@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import axios from 'axios'
 import '../../../Components/Category/SubCategory.css'
-import {handleAddProduct} from '../../../Routers'
+
 
 export const JewelSubCategory = ({handleAddProduct}) => {
     const [bangle, setBangle] = useState('')
